@@ -1,6 +1,6 @@
 # Trabalho Final
 
-**Professor: João Eduardo Montandon**
+**Professor: Dener Augusto de Lisboa Brandão**
 
 **Núm de integrantes: 2 alunos**
 
@@ -106,7 +106,7 @@ Além disso, cada uma das opções deverá ser executada em um procedimento (mé
 
 # Entrega
 
-O trabalho deverá ser **entregue até o dia 29/08/2021**, no formato de pull request a este repositório.
+O trabalho deverá ser **entregue até o dia 07/07/2023**, no formato de pull request a este repositório.
 Você deverá entregar no pull request o projeto contendo o código desenvolvido do programa. Ainda, forneça no próprio pull-request checklist preenchido, representando o cumprimento das tarefas:
 
 - [ ] Arquitetura geral
