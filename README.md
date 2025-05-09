@@ -1,6 +1,6 @@
 # Trabalho Final
 
-**Professor: João Eduardo Montandon**
+**Professor: Márcio Júnior Nunes**
 
 **Núm de integrantes: 2 alunos**
 
@@ -29,7 +29,7 @@ Opcionalmente você pode seguir outro modelo arquitetural, desde que tecnicament
 ![alt](./res/architecture.png)
 
 Como se pode observar, esse modelo é composto por três camadas.
-A camada de apresentação conterá classes que serão responsáveis por exibir informações na tela do usuário, incluindo a classe que irá controlá as opções de menu, bem como as demais classes e métodos que irão exibir algum dado na tela para o usuário.
+A camada de interface (apresentação) conterá classes que serão responsáveis por exibir informações na tela do usuário, incluindo a classe que irá controlá as opções de menu, bem como as demais classes e métodos que irão exibir algum dado na tela para o usuário.
 A camada intermediária conterá classes relacionadas as regras de negócio da aplicação. Essas classes irão, basicamente, receber os dados fornecidos pelo usuário na camada de apresentação, fazer os devidos tratamentos e conversões, e por fim encaminhar esses dados para a chamada dos métodos e funções na camada de dados.
 Por fim, nós temos a camada de dados, responsável pelas classes e métodos que irão gerir o modelo de dados do programa.
 
@@ -52,7 +52,7 @@ Contudo, é importante ressaltar que a classe responsável por fazer a gestão d
 #### Exportação
 
 Além disso, é importante observar que a ação de exportar deverá ser realizada também por classes presentes na camada de dados.
-Nesse caso, você também deverá implementar um padrão de projeto entre essas classes para facilitar a implementação a seleção do tipo de exportação a ser feita na camada de negócios; recomenda-se nesse caso o uso do padrão **abstract factory**.
+Nesse caso, você também deverá implementar um padrão de projeto entre essas classes para facilitar a implementação de seleção do tipo de exportação a ser feita na camada de negócios; recomenda-se nesse caso o uso do padrão **abstract factory**.
 *Dica: utilize bibliotecas externas para lhe ajudar no processo de exportação das entradas para o formato desejado, ex: [GSON](https://github.com/google/gson).*
 
 #### Filtragem
@@ -81,7 +81,7 @@ Sua classe de teste deverá testar:
 ### Camada de Negócios
 
 Nessa camada, você deverá implementar, necessáriamente, um método responsável pela execução de cada uma das ações referentes as funcionalidades listadas inicialmente.
-Isto é, você deverá implementar métodos específicos para (a) inserir nova entrada no diário, (b) filtrar as entradas de acordo com os critérios estabelecidos previamente, e (c) exportar as entradas do diário para um arquivo externo.
+Isto é, você deverá implementar métodos específicos para (1) inserir nova entrada no diário, (2) filtrar as entradas de acordo com os critérios estabelecidos previamente, e (3) exportar as entradas do diário para um arquivo externo.
 
 Além disso, será necessário realizar a conversão de alguns dados, fornecidos pelo usuário, para objetos Java dentro do seu programa (ex.: conversão da `String` representando uma data para um objeto do tipo `Date`).
 Implemente uma classe auxiliar responsável por essas conversões.
@@ -106,8 +106,8 @@ Além disso, cada uma das opções deverá ser executada em um procedimento (mé
 
 # Entrega
 
-O trabalho deverá ser **entregue até o dia 29/06/2024**, no formato de pull request a este repositório.
-Você deverá entregar no pull request o projeto contendo o código desenvolvido do programa. Ainda, forneça no próprio pull-request checklist preenchido, representando o cumprimento das tarefas:
+O trabalho deverá ser **entregue até o dia 08/06/2025**, no formato de pull request a este repositório.
+Você deverá entregar no pull request o projeto contendo o código desenvolvido do programa. Ainda, forneça no próprio pull-request um checklist preenchido, representando o cumprimento das tarefas:
 
 - [ ] Arquitetura geral
 - [ ] Camada de dados
